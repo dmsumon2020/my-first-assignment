@@ -24,6 +24,12 @@
     font-weight: 800;
     text-align: center;
   }
+  .section-title {
+    margin-bottom: 24px;
+  }
+.section-description{
+  text-align: center;
+}
 
   /* main styles */
   main {
@@ -73,9 +79,7 @@
 	background-color: rgba(13, 19, 33, 0.02);
 	padding: 80px 97px;
 	border-radius: 16px;
-}
-.why-web-development .section-title {
-	margin-bottom: 24px;
+	margin-bottom: 90px;
 }
 .why-web-development  .section-description{
   margin-bottom: 48px;
@@ -141,4 +145,23 @@
 }
 .why-web-development .card .card-right {
 	width: 260px;
+}
+
+/* my inspiration section */
+.my-inspiration .section-description {
+	width: 852px;
+	margin: 0 auto;
+}
+.my-inspiration .video-container {
+	height: 614px;
+	margin-top: 48px;
+	padding: 32px;
+	box-sizing: border-box;
+	border: 1px solid rgba(13, 19, 33, 0.2);
+	border-radius: 16px;
+	margin-bottom: 150px;
+}
+.my-inspiration .video-container iframe{
+  width: 100%;
+  height: 100%;
 }
