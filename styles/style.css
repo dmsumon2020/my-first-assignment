@@ -51,6 +51,7 @@
     border-radius: 8px;
     background: #fff;
     border: 1px solid #0D1321;
+    cursor: pointer;
   }
   /* main styles */
   main{
@@ -82,18 +83,23 @@
     font-weight: 800;
     margin-bottom: 24px;
 }
-.banner-content .banner-btn{
-    margin-top: 32px;  
-    border-radius: 8px;
-    background: rgb(13, 19, 33);  
-    color: #fff;
-    padding: 21px 24px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    border: none;   
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
+.banner-content .banner-description {
+	width: 750px;
+	margin: 0 auto;
+}
+.banner-content .banner-btn {
+	margin-top: 32px;
+	border-radius: 8px;
+	background: rgb(13, 19, 33);
+	color: #fff;
+	padding: 21px 24px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 23px;
+	border: none;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	margin-bottom: 44px;
 }
 
 /* why web development section */
@@ -168,6 +174,9 @@
 }
 
 /* my inspiration section */
+.my-inspiration{
+	margin-bottom: 150px;
+}
 .my-inspiration .section-description {
 	width: 852px;
 	margin: 0 auto 40px auto;
@@ -177,7 +186,6 @@
 	padding: 32px;
 	border: 1px solid rgba(13, 19, 33, 0.2);
 	border-radius: 16px;
-	margin-bottom: 150px;
 }
 .my-inspiration .video-container iframe{
   width: 100%;
@@ -226,7 +234,7 @@
 }
 
 /* my next target section */
-.next-targets{
+.my-next-target{
   margin-bottom: 50px;
 }
 .next-targets .next-target {
@@ -271,9 +279,10 @@
   margin-bottom: 16px;
   line-height: 36px;
 }
-.i-need-support .section-description{
-  color: #fff; 
-  margin-bottom: 24px;
+.i-need-support .section-description {
+	color: #fff;
+	margin: 0 auto 24px auto;
+	width: 600px;
 }
 .i-need-support form {
 	display: flex;
