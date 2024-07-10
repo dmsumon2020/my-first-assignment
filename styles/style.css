@@ -33,7 +33,7 @@
 }
 
   /* main styles */
-  main {
+  main, footer{
     max-width: 1140px;
     margin: 0 auto;
   }
@@ -246,4 +246,12 @@
 	border-radius: 8px;
 	height: 56px;
 	padding: 0 20px;
+}
+
+/* footer section start  */
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
 }
