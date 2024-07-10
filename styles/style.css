@@ -113,6 +113,9 @@
   justify-content: space-between;
   align-items: center;
 } 
+.why-web-development .card a{
+  text-decoration: none;
+}
     /*  this css applies only on odd child selectors  */
 .why-web-development .card:nth-child(2n+1) {
 	flex-direction: row;
@@ -158,6 +161,7 @@
 	font-size: 20px;
 	font-weight: 600;
 	background-color: transparent;
+	cursor: pointer;
 }
 .why-web-development .card .card-left {
 	width: 477px;
@@ -213,6 +217,7 @@
 	font-weight: 700;
 	text-decoration-line: underline;
 	font-size: 16px;
+	color: #0D1321;
 }
 .html{
   background: rgba(255, 76, 30, 0.05);
