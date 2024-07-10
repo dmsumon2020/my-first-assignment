@@ -139,7 +139,7 @@
 	width: 477px;
 }
 .why-web-development .card .card-right {
-	width: 260px;
+	width: 270px;
 }
 
 /* my inspiration section */
@@ -171,9 +171,9 @@
 	gap: 24px;
 }
 .my-current-target-section .targets .target {
-	max-width: 284px;
+	max-width: 364px;
 	padding: 40px;
-  border-radius: 16px; 
+	border-radius: 16px;
 }
 .my-current-target-section .targets .target .target-title {
 	font-size: 24px;
@@ -222,10 +222,10 @@
   color: #fff; 
   margin-bottom: 24px;
 }
-.i-need-support form{
+.i-need-support form {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;  
+	justify-content: space-around;
+	align-items: center;
 }
 .i-need-support input[type="text"] {
 	width: 548px;
