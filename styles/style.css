@@ -175,7 +175,7 @@
 	padding: 40px;
 	border-radius: 16px;
 }
-.my-current-target-section .targets .target .target-title {
+.target-title {
 	font-size: 24px;
 	font-weight: 800;
 	line-height: 36px;
@@ -185,7 +185,7 @@
 .my-current-target-section .targets .target .target-description{
   margin-bottom: 24px;
 }
-.my-current-target-section .targets .target .learn-more {
+.learn-more {
 	font-weight: 700;
 	text-decoration-line: underline;
 	font-size: 16px;
@@ -200,6 +200,34 @@
   background: rgba(255, 223, 0, 0.05);
 }
 
+/* my next target section */
+.next-targets{
+  margin-bottom: 50px;
+}
+.next-targets .next-target {
+	border: 1px solid rgba(13, 19, 33, 0.15);
+	border-radius: 16px;
+	padding: 40px;
+	margin-bottom: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	gap: 30px;
+}
+.next-targets .next-target.next-target-wrapper{
+  width: 940px;
+}
+.next-targets .next-target-wrapper .target-title{
+  margin-top: 0;
+}
+.next-targets .next-target-wrapper .next-target-description{
+  margin-bottom: 24px;
+}
+.next-target-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 /* i need support section  */
 .i-need-support{
   padding: 64px 48px;
