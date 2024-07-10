@@ -13,18 +13,16 @@
   p, .title{
     color: #0D1321;
   }
-  p{
+  p {
     opacity: 0.7;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 26px;
   }
   .section-title{
     font-size: 32px;
     font-weight: 800;
     text-align: center;
-  }
-  .section-title {
     margin-bottom: 24px;
   }
 .section-description{
@@ -123,7 +121,6 @@
   margin-bottom: 32px;
 }
 .why-web-development .card .btn {
-	width: 171px;
 	height: 47px;
 	display: flex;
 	flex-direction: row;
@@ -133,7 +130,7 @@
 	box-sizing: border-box;
 	border: 1px solid rgb(13, 19, 33);
 	opacity: 0.7;
-	color: rgb(13, 19, 33);
+	color: #0D1321;
 	font-size: 20px;
 	font-weight: 600;
 	background-color: transparent;
@@ -219,10 +216,10 @@
 .i-need-support .section-title{
   color: #fff;
   margin-bottom: 16px;
+  line-height: 36px;
 }
 .i-need-support .section-description{
   color: #fff; 
-  opacity: 0.7;
   margin-bottom: 24px;
 }
 .i-need-support form{
@@ -237,6 +234,8 @@
 	border: 1px solid rgba(13, 19, 33, 0.15);
 	padding: 0 20px;
 	height: 55px;
+	color: rgba(13, 19, 33, 0.4);
+	font-size: 16px;
 }
 .i-need-support .btn-submit {
 	background-color: #fff;
@@ -273,4 +272,4 @@
 	display: inline-block;
 	width: 36px;
 	height: 36px;
-}git add 
+}
