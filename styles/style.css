@@ -30,6 +30,30 @@
   margin-bottom: 48px;;    
 }
 
+  /* nav styles */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 36px;
+    border-bottom: 1px dashed #0D1321;
+    border-top: 1px dashed #0D1321;
+  }
+  nav .nav-title{
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  nav .btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321;
+    padding: 16px 25px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #0D1321;
+  }
   /* main styles */
   main{
     max-width: 1140px;
