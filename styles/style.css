@@ -206,8 +206,44 @@
 .i-need-support{
   padding: 64px 48px;
   border-radius: 16px;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/handshake.jpg"); */
-  background: url("../images/handshake.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/handshake.jpg");  
   background-size: cover;
   background-position: center;
+  margin-bottom: 80px;
+}
+.i-need-support-wrapper{
+  width: 730px;
+  margin: 0 auto;
+}
+.i-need-support .section-title{
+  color: #fff;
+  margin-bottom: 16px;
+}
+.i-need-support .section-description{
+  color: #fff; 
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.i-need-support form{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;  
+}
+.i-need-support input[type="text"] {
+	width: 548px;
+	border-radius: 8px;
+	background-color: white;
+	border: 1px solid rgba(13, 19, 33, 0.15);
+	padding: 0 20px;
+	height: 55px;
+}
+.i-need-support .btn-submit {
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	color: #0D1321;
+	border: none;
+	border-radius: 8px;
+	height: 56px;
+	padding: 0 20px;
 }
