@@ -301,6 +301,7 @@
 	border-radius: 8px;
 	height: 56px;
 	padding: 0 20px;
+  cursor: pointer;
 }
 
 /* footer section start  */
